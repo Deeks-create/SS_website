@@ -1,0 +1,172 @@
+import { OpportunityCategoryInfo } from '../types';
+
+export const OPPORTUNITY_CATEGORIES: OpportunityCategoryInfo[] = [
+  {
+    slug: 'internships',
+    title: 'Internships',
+    shortTitle: 'Internships',
+    description: 'Gain real-world experience, build your developer/design portfolio, and work alongside industry mentors.',
+    longDescription: 'Discover curated student internships across Web Development, UI/UX Design, AI/ML, Data Analytics, Digital Marketing, Content Writing, Graphic Design, and Video Editing.',
+    image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800',
+    iconName: 'Briefcase',
+    count: 8,
+    accentColor: 'brand-red',
+    badgeText: 'Career Start'
+  },
+  {
+    slug: 'jobs',
+    title: 'Jobs',
+    shortTitle: 'Jobs',
+    description: 'Sample entry-level positions and fresher roles to help you transition from student to professional.',
+    longDescription: 'Explore sample entry-level roles for fresh graduates and final-year students in web development, design, social media, data analytics, and event operations.',
+    image: 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&q=80&w=800',
+    iconName: 'Building',
+    count: 8,
+    accentColor: 'cyan-400',
+    badgeText: 'Entry Level'
+  },
+  {
+    slug: 'campus-ambassador',
+    title: 'Campus Ambassador',
+    shortTitle: 'Campus Ambassador',
+    description: 'Represent SS at your institution, lead campus meetups, and earn leadership certificates and rewards.',
+    longDescription: 'Become the official voice of Struggle of Student at your college campus. Connect peers to opportunities, organize workshops, and build invaluable leadership skills.',
+    image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&q=80&w=800',
+    iconName: 'Award',
+    count: 3,
+    accentColor: 'emerald-400',
+    badgeText: 'Lead Campus'
+  },
+  {
+    slug: 'volunteering',
+    title: 'Volunteering',
+    shortTitle: 'Volunteering',
+    description: 'Get hands-on experience in event execution, desk logistics, photography, stage support, and student outreach.',
+    longDescription: 'Join the SS event ops desk to volunteer at major campus meetups, gain real event coordination experience, and receive volunteer recognition certificates.',
+    image: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=800',
+    iconName: 'HeartHandshake',
+    count: 7,
+    accentColor: 'amber-400',
+    badgeText: 'Event Desk'
+  },
+  {
+    slug: 'events',
+    title: 'Events',
+    shortTitle: 'Events',
+    description: 'On-campus and virtual gatherings, hackathons, networking meetups, and student celebrations.',
+    longDescription: 'Participate in interactive student gatherings, campus stages, and skill conventions organized by Struggle of Student and partner college clubs.',
+    image: 'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&q=80&w=800',
+    iconName: 'Calendar',
+    count: 5,
+    accentColor: 'brand-red',
+    badgeText: 'Live Stages'
+  },
+  {
+    slug: 'talent-showcase',
+    title: 'Talent Showcase',
+    shortTitle: 'Talent Showcase',
+    description: 'Showcase your musical, artistic, anchoring, comedy, poetry, or creative performance skills to thousands of peers.',
+    longDescription: 'Submit your audio/video performance portfolio across 12 creative categories including singing, dancing, comedy, beatboxing, spoken word, and visual arts.',
+    image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800',
+    iconName: 'Sparkles',
+    count: 12,
+    accentColor: 'cyan-400',
+    badgeText: 'Your Stage'
+  },
+  {
+    slug: 'leadership',
+    title: 'Leadership',
+    shortTitle: 'Leadership',
+    description: 'Step into student team lead roles, event organizing chairs, and community coordinator positions.',
+    longDescription: 'Develop real management and organizational capabilities by leading student initiatives, project teams, and campus outreach chapters.',
+    image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800',
+    iconName: 'ShieldCheck',
+    count: 5,
+    accentColor: 'teal-400',
+    badgeText: 'Team Lead'
+  },
+  {
+    slug: 'sessions',
+    title: 'Online Sessions',
+    shortTitle: 'Online Sessions',
+    description: 'Interactive virtual webinars, Q&A masterclasses, and peer practice circles with student leaders and mentors.',
+    longDescription: 'Join live interactive Zoom/Google Meet sessions covering public speaking, interview prep, career transitions, and developer mentorship.',
+    image: 'https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?auto=format&fit=crop&q=80&w=800',
+    iconName: 'Video',
+    count: 4,
+    accentColor: 'indigo-400',
+    badgeText: 'Virtual Room'
+  },
+  {
+    slug: 'workshops',
+    title: 'Workshops',
+    shortTitle: 'Workshops',
+    description: 'Hands-on practical masterclasses on communication, resume writing, portfolio building, and technical skills.',
+    longDescription: 'Build high-value employability skills through intensive workshops like "Unmute Yourself", placement interview prep, and technical bootcamps.',
+    image: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800',
+    iconName: 'GraduationCap',
+    count: 6,
+    accentColor: 'brand-red',
+    badgeText: 'Skill Boost'
+  },
+  {
+    slug: 'projects',
+    title: 'Student Projects',
+    shortTitle: 'Student Projects',
+    description: 'Collaborate with student developers, designers, and creators to build open-source utilities and portfolio projects.',
+    longDescription: 'Join real student-led software development projects, design sprints, and open-source contributions to build proof of work.',
+    image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800',
+    iconName: 'Code2',
+    count: 5,
+    accentColor: 'cyan-400',
+    badgeText: 'Proof of Work'
+  },
+  {
+    slug: 'collaborations',
+    title: 'Collaborations',
+    shortTitle: 'Collaborations',
+    description: 'Cross-college initiatives, inter-institutional hackathons, creative media campaigns, and joint student ventures.',
+    longDescription: 'Partner with student clubs, college societies, and inter-institutional teams for joint projects, cultural fests, and hackathons.',
+    image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=800',
+    iconName: 'Users',
+    count: 4,
+    accentColor: 'emerald-400',
+    badgeText: 'Cross College'
+  },
+  {
+    slug: 'career-development',
+    title: 'Career Development',
+    shortTitle: 'Career Guidance',
+    description: 'Resume reviews, mock interviews, LinkedIn profile optimization, and career guidance circles.',
+    longDescription: 'Get personalized feedback on your resume, practice technical & HR mock interviews, and receive structured career navigation guidance.',
+    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800',
+    iconName: 'TrendingUp',
+    count: 4,
+    accentColor: 'amber-400',
+    badgeText: 'Placement Ready'
+  },
+  {
+    slug: 'personal-growth',
+    title: 'Personal Growth',
+    shortTitle: 'Personal Growth',
+    description: 'Public speaking confidence circles, habit building, peer support, and goal tracking for college life.',
+    longDescription: 'Overcome stage fear, improve interpersonal communication, build lasting productivity habits, and thrive alongside supportive student peers.',
+    image: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800',
+    iconName: 'Zap',
+    count: 4,
+    accentColor: 'rose-400',
+    badgeText: 'Mindset & Confidence'
+  },
+  {
+    slug: 'other',
+    title: 'Creative & Other',
+    shortTitle: 'Creative & Other',
+    description: 'Art exhibitions, music jam sessions, creative writing circles, photography walks, and unique student initiatives.',
+    longDescription: 'Explore non-traditional student activities including photography photo walks, acoustic jam sessions, digital art showcases, and creative writing circles.',
+    image: 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&q=80&w=800',
+    iconName: 'Layers',
+    count: 4,
+    accentColor: 'teal-400',
+    badgeText: 'Explore More'
+  }
+];
