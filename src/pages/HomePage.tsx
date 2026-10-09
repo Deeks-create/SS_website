@@ -243,7 +243,7 @@ export const HomePage: React.FC = () => {
                       <span className="text-[10px] font-bold uppercase tracking-widest text-brand-red bg-brand-red/10 px-3 py-1">
                         {opp.type}
                       </span>
-                      {opp.isHot && (
+                      {opp.isFeatured && (
                         <div className="flex items-center gap-1 text-orange-400">
                           <Sparkles className="w-3 h-3" />
                           <span className="text-[10px] uppercase font-bold tracking-widest">Hot</span>
@@ -259,7 +259,7 @@ export const HomePage: React.FC = () => {
                     </p>
                     
                     <div className="mt-auto pt-6 border-t border-white/5 flex items-center justify-between">
-                      <span className="text-xs text-slate-500 font-medium">{opp.company}</span>
+                      <span className="text-xs text-slate-500 font-medium">{opp.companyName}</span>
                       <ArrowRight className="w-4 h-4 text-brand-red opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" />
                     </div>
                   </motion.div>
